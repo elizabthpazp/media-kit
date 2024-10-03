@@ -212,18 +212,12 @@ export default function Home() {
                 <Award className="mr-2" /> Colaboraciones Anteriores
               </h2>
             </div>
-            <div className="p-4">
-              <ul className="space-y-2">
+            <div className="p-4 mt-4">
+              <ul className="space-y-2"> 
                 <li className="flex items-start">
                   <Award className="mr-2 text-purple-500 flex-shrink-0 mt-1" />
                   <span className="text-gray-900">
-                    Campaña de concientización sobre ciberseguridad con TechSafe
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <Award className="mr-2 text-purple-500 flex-shrink-0 mt-1" />
-                  <span className="text-gray-900">
-                    Serie de videos tutoriales sobre programación con CodeMaster
+                    Video sobre inteligencia artificial para campaña publicitaria con Kyndi
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -233,7 +227,7 @@ export default function Home() {
                 <li className="flex items-start">
                   <Award className="mr-2 text-purple-500 flex-shrink-0 mt-1" />
                   <span className="text-gray-900">
-                    Webinar sobre Inteligencia Artificial con AIFuture
+                    Webinar sobre ecosistema de mujeres fundadoras con Amela
                   </span>
                 </li>
               </ul>
