@@ -72,10 +72,10 @@ export default function Home() {
               <div className="space-y-4">
                 <div>
                   <div className="flex justify-between mb-2 mt-8">
-                    <span className="text-sm font-medium flex items-center">
-                      <Calendar className="mr-2" /> Edad: 18-24 años
+                    <span className="text-sm font-medium flex items-center text-gray-900">
+                      <Calendar className="mr-2 text-gray-900" /> Edad: 18-24 años
                     </span>
-                    <span className="text-sm font-medium">46.2%</span>
+                    <span className="text-sm font-medium text-gray-900">46.2%</span>
                   </div>
                   <div className="w-full bg-gray-200 mb-8 rounded-full h-2.5">
                     <div
@@ -86,10 +86,10 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="flex justify-between mb-2 mt-8">
-                    <span className="text-sm font-medium flex items-center">
-                      <Users className="mr-2" /> Género: Masculino
+                    <span className="text-sm font-medium flex items-center text-gray-900">
+                      <Users className="mr-2 text-gray-900" /> Género: Masculino
                     </span>
-                    <span className="text-sm font-medium">81%</span>
+                    <span className="text-sm font-medium text-gray-900">81%</span>
                   </div>
                   <div className="w-full bg-gray-200 mb-8 rounded-full h-2.5">
                     <div
@@ -100,10 +100,10 @@ export default function Home() {
                 </div>
                 <div className="pb-6">
                   <div className="flex justify-between mb-2 mt-8">
-                    <span className="text-sm font-medium flex items-center">
-                      <MapPin className="mr-2" /> Ubicación: México
+                    <span className="text-sm font-medium flex items-center text-gray-900">
+                      <MapPin className="mr-2 text-gray-900" /> Ubicación: México
                     </span>
-                    <span className="text-sm font-medium">31.2%</span>
+                    <span className="text-sm font-medium text-gray-900">31.2%</span>
                   </div>
                   <div className="w-full bg-gray-200 mb-8 rounded-full h-2.5">
                     <div
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
             <div className="p-4">
               <div className="space-y-4">
-              <div className="space-y-6">
+              <div className="space-y-6 text-gray-900">
               {[
                 { network: "Instagram", icon: Instagram, stats: [
                   { label: "Seguidores", value: "13.2K" },
@@ -181,7 +181,7 @@ export default function Home() {
                     {network.stats.map((stat, statIndex) => (
                       <div key={statIndex} className="flex items-center">
                         <BarChart2 className="mr-2 h-4 w-4 text-purple-500" />
-                        <span className="text-sm">{stat.label}: <strong>{stat.value}</strong></span>
+                        <span className="text-sm text-gray-900">{stat.label}: <strong>{stat.value}</strong></span>
                       </div>
                     ))}
                   </div>
@@ -216,23 +216,23 @@ export default function Home() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <Award className="mr-2 text-purple-500 flex-shrink-0 mt-1" />
-                  <span>
+                  <span className="text-gray-900">
                     Campaña de concientización sobre ciberseguridad con TechSafe
                   </span>
                 </li>
                 <li className="flex items-start">
                   <Award className="mr-2 text-purple-500 flex-shrink-0 mt-1" />
-                  <span>
+                  <span className="text-gray-900">
                     Serie de videos tutoriales sobre programación con CodeMaster
                   </span>
                 </li>
                 <li className="flex items-start">
                   <Award className="mr-2 text-purple-500 flex-shrink-0 mt-1" />
-                  <span>Reseña de productos tecnológicos para InnoGadget</span>
+                  <span className="text-gray-900">Reseña de productos tecnológicos para InnoGadget</span>
                 </li>
                 <li className="flex items-start">
                   <Award className="mr-2 text-purple-500 flex-shrink-0 mt-1" />
-                  <span>
+                  <span className="text-gray-900">
                     Webinar sobre Inteligencia Artificial con AIFuture
                   </span>
                 </li>
@@ -254,23 +254,23 @@ export default function Home() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <Briefcase className="mr-2 text-indigo-500 flex-shrink-0 mt-1" />
-                  <span>Posts/Videos patrocinados en redes sociales</span>
+                  <span className="text-gray-900">Posts/Videos patrocinados en redes sociales</span>
                 </li>
                 <li className="flex items-start">
                   <Briefcase className="mr-2 text-indigo-500 flex-shrink-0 mt-1" />
-                  <span>Videos de reseñas de productos/servicios</span>
+                  <span className="text-gray-900">Videos de reseñas de productos/servicios</span>
                 </li>
                 <li className="flex items-start">
                   <Briefcase className="mr-2 text-indigo-500 flex-shrink-0 mt-1" />
-                  <span>Participación en webinars y eventos en vivo</span>
+                  <span className="text-gray-900">Participación en webinars y eventos en vivo</span>
                 </li>
                 <li className="flex items-start">
                   <Briefcase className="mr-2 text-indigo-500 flex-shrink-0 mt-1" />
-                  <span>Creación de contenido educativo personalizado</span>
+                  <span className="text-gray-900">Creación de contenido educativo personalizado</span>
                 </li>
                 <li className="flex items-start">
                   <Briefcase className="mr-2 text-indigo-500 flex-shrink-0 mt-1" />
-                  <span>Embajador de marca a largo plazo</span>
+                  <span className="text-gray-900">Embajador de marca a largo plazo</span>
                 </li>
               </ul>
             </div>

@@ -17,6 +17,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Media Kit elizabthpazp.js",
   description: "Presentación con información clave como creador de contenido, influencer y profesional",
+  icons: ["./img/logo.png"]
 };
 
 export default function RootLayout({
