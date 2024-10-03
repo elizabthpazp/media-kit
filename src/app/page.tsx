@@ -36,6 +36,7 @@ const platformData = [
   { name: "Instagram", followers: 13150 }, 
   { name: "TikTok", followers: 3560 },
   { name: "Threads", followers: 1740 },
+  { name: "Linkedin", followers: 1400 },
 ];
 
 const COLORS = ["#7137A7FF", "#905FBDFF", "#A481C4FF", "#BFA7D5FF"];
